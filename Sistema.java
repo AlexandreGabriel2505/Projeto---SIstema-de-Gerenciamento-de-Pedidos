@@ -14,7 +14,7 @@ public class Sistema {
 
         // Loop para manter o menu rodando ate que o usuario escolha sair
         while(true){
-            System.out.println("\n===== Restaurante 'Sabor em Código' =====");
+            System.out.println("\n===== Restaurante 'Sakura Coffee' =====");
             System.out.println("1. Registrar Pedido");
             System.out.println("2. Remover Pedido");
             System.out.println("3. Listar Pedidos");
