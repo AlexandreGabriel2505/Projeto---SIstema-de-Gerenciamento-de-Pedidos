@@ -56,7 +56,7 @@ public class Sistema {
                     listaDePedidos.add(novoPedido);
                     proximoNumeroPedido++;
 
-                    // Mostra a nota de confirmação (como o professor pediu)
+                    // Mostra a nota de confirmação
                     System.out.println("\n========================================");
                     System.out.println("         Pedido Registrado!           ");
                     System.out.println("========================================");
@@ -106,7 +106,6 @@ public class Sistema {
                             System.out.println("Cliente: " + pedido.getNomeCliente());  
                             System.out.println("Itens:");
 
-                            
                             // Para cada pedido percorremos a lista de iten.
                             for (Item item : pedido.getItens()) {
                                 // Imprime o nome e o preço de cada item 
